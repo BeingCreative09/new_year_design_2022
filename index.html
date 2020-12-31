@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="text">
+            . Backbenchers .
+        </div>
+        <div class="message">
+            <p>Wishes you all a very..</p>
+        </div>
+        <div class="loading">
+            <h2>2020</h2>
+            <div class="fill"></div>
+            <h2>2021</h2>
+        </div>
+    </div>
+    <div class="content">
+       <div class="text1">
+            <h2>HAPPY NEW YEAR</h2>
+        </div>
+        <div class="text1">
+            <h2>2021</h2>
+        </div>
+    </div>
+    <script src="./confetti.js"></script>
+    <script defer>
+        const party=()=>{
+            setTimeout(function(){
+                confetti.start();
+            },11000);
+        }
+        party();
+
+    </script>
+</body>
+</html>
