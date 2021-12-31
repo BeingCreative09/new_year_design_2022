@@ -296,7 +296,19 @@ body
         font-size: 2rem;
     }
 }
-
+@media (max-width:350px)
+{
+    .hero .text 
+    {
+        font-size: 2.6rem;
+    }
+    .content
+    {
+        width: 110%;
+        height: 110%;
+    }
+    
+}
 
 
 
